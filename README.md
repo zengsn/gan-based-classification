@@ -6,7 +6,7 @@
 # 运行 
 ## 基于Fashion-mnist的DCGAN框架运行
 
-首先，分别修改**model.py**中第465、469、473及477行的代码，将os.path.join（）函数里面的路径改成你本机的mnist文件夹路径。（注意是**绝对路径**）
+首先，分别修改**model.py**中第465、469、473及477行的代码，将os.path.join（）函数里面的路径改成你本机的mnist文件夹路径及文件名。（注意是**绝对路径**）
 修改完后，按照官方文档中的命令运行即可：  
 ```
 $ python main.py --dataset mnist --input_height=28 --output_height=28
