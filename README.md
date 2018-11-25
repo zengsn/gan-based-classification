@@ -17,4 +17,4 @@ $ python main.py --dataset mnist --input_height=28 --output_height=28
   
 将model文件夹中的mnist数据集文件覆盖mnist文件夹中的Fashion-mnist文件即可。  
 **注意**：由于mnist数据集文件名是t10k-images.idx3-ubyte，images和idx3之间是**点**，而Fashion-mnist数据集文件名是**横杠**，  
-故覆盖完后还需修改**model.py**中第465、469、473及477行的代码，将点换成横杠即可。  
+故覆盖完后还需修改**model.py**中第465、469、473及477行的代码，将点换成横杠。  
